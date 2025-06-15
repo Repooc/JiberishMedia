@@ -1,0 +1,7 @@
+package-as: JiberishMedia
+manual-changelog:
+    filename: changelog.md
+    markup-type: markdown
+move-folders:
+    JiberishMedia/JiberishMedia: JiberishMedia
+enable-toc-creation: yes
