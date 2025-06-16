@@ -3,6 +3,7 @@
 ## Author: Jiberish
 ## Version: 1.0.0
 ## DefaultState: Enabled
+## IconTexture: Interface\Addons\JiberishMedia\Logo256
 ## X-Curse-Project-ID: 
 ## X-Wago-ID: 
 
