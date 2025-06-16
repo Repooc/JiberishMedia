@@ -22,9 +22,6 @@ Community & Support
 - Patreon: https://patreon.com/jiberishui
 - YouTube: https://www.youtube.com/@jiberishui
 - Website: https://jiberishui.com
-- Repooc: https://ko-fi.com/repoocreforged
-- Eltreum: https://www.patreon.com/eltreum
-- Blinkii: https://ko-fi.com/blinkii
 
 ---
 
