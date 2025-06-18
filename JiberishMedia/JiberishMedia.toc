@@ -1,10 +1,10 @@
-## Interface: 110105, 40402, 11507
+## Interface: 110107, 40402, 11507
 ## Title: |cff1784d1Jiberish|r|cff00ccffMedia|r
 ## Author: Jiberish
 ## Version: 1.0.0
 ## DefaultState: Enabled
 ## IconTexture: Interface\Addons\JiberishMedia\Logo256
-## X-Curse-Project-ID: 
-## X-Wago-ID: 
+## X-Curse-Project-ID: 1289015
+## X-Wago-ID: mNwQBBKo
 
-Media.lua 
+Media.lua

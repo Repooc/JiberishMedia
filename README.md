@@ -1,4 +1,3 @@
-
 JiberishMedia is a World of Warcraft addon that provides shared media resources for use with LibSharedMedia which is used by many addons. This addon is used by JiberishUI and other various addons like some of my other profile installers.
 
 ---
