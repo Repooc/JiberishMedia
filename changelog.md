@@ -1,3 +1,3 @@
-v1.0.0 6/9/25
+v1.0.1 7/1/25
 
-• [New] Initial Installer Release
+• [Update] Bump toc for MoP Release
