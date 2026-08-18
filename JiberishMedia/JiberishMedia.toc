@@ -1,7 +1,7 @@
-## Interface: 120005, 50503, 11508, 20505
+## Interface: 120100, 50504, 11509, 20506
 ## Title: |cff1784d1Jiberish|r|cff00ccffMedia|r
 ## Author: Jiberish
-## Version: 1.0.5
+## Version: 1.0.6
 ## DefaultState: Enabled
 ## IconTexture: Interface\Addons\JiberishMedia\Logo256
 ## X-Curse-Project-ID: 1289015
