@@ -1,10 +1,14 @@
 ## Interface: 120100, 50504, 11509, 20506
 ## Title: |cff1784d1Jiberish|r|cff00ccffMedia|r
 ## Author: Jiberish
-## Version: 1.0.6
+## Version: 1.1.0
 ## DefaultState: Enabled
+## OptionalDeps: ElvUI, EllesmereUI
 ## IconTexture: Interface\Addons\JiberishMedia\Logo256
 ## X-Curse-Project-ID: 1289015
 ## X-Wago-ID: mNwQBBKo
 
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
 Media.lua
