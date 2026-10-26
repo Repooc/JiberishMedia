@@ -22,7 +22,11 @@ jobs:
       run: find JiberishMedia tests -name '*.lua' -print0 | xargs -0 -n 1 luac5.1 -p
     - name: Test standalone and shared library loading
       run: lua5.1 tests/shared_media.lua
+    - name: Validate font licenses and inventory
+      run: python3 tests/font_licenses.py
     - name: Package without publishing
       uses: BigWigsMods/packager@master
       with:
         args: -d -n "{package-name}-{project-version}"
+    - name: Validate packaged font licenses
+      run: python3 tests/font_licenses.py --archives .release

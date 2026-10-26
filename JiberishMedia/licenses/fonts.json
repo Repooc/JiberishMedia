@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "fonts": [
+    {
+      "file": "font/BowlbyOne.ttf",
+      "family": "Bowlby One SC",
+      "version": "Version 1.2",
+      "sha256": "829cbc8a205afa5449effe936f797e3b25782e35c9ac2efb232b142fd6e5a4c9",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright (c) 2011, vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Bowlby\"",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    },
+    {
+      "file": "font/Catamaran-Black.ttf",
+      "family": "Catamaran Black",
+      "version": "Version 2.000",
+      "sha256": "da9f24e2f919db2abd459e8587db56be9c7fb6f9afa5cc866b77ca4a0f6a00e7",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright 2020 The Catamaran Project Authors (https://github.com/VanillaandCream/Catamaran-Tamil)",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    },
+    {
+      "file": "font/Changa-ExtraBold.ttf",
+      "family": "Changa ExtraBold",
+      "version": "Version 3.003",
+      "sha256": "c8417d1f7da7637de41c16f4b5f3e5ac6f785dbdad27ed75b196f1629620c1c7",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright 2018 The Changa Project Authors (https://github.com/eliheuer/changa-vf)",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    },
+    {
+      "file": "font/Fredoka.ttf",
+      "family": "Fredoka",
+      "version": "Version 2.001",
+      "sha256": "7fae551a06df5f175b6aab5134a173a5ab334e9c9cf35a5c0d3c5af6b3f51961",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright 2016 The Fredoka Project Authors (https://github.com/hafontia/Fredoka-One)",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    },
+    {
+      "file": "font/GasoekOne.ttf",
+      "family": "Gasoek One",
+      "version": "Version 1.000; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.29]",
+      "sha256": "8ec5938c31da2ac36459d5c29551ad87b5b987ca67f6dfee830d362919facd8c",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright 2022 The Gasoek Project Authors (https://github.com/JAMO-TYPEFACE/Gasoek)",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    },
+    {
+      "file": "font/LuckiestGuy.ttf",
+      "family": "Luckiest Guy",
+      "version": "Version 1.001",
+      "sha256": "fbe683091b0db0faa8f38e5227ad3bc17dc67f119f27ff10a63d72f5f9bb9da3",
+      "license": "Apache-2.0",
+      "license_file": "licenses/Apache-2.0.txt",
+      "copyright": "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\nhttp://www.apache.org/licenses/LICENSE-2.0.html",
+      "license_evidence": "Embedded font name-table license notice or license URL.",
+      "license_source": "https://github.com/google/fonts/blob/main/apache/luckiestguy/LICENSE.txt"
+    },
+    {
+      "file": "font/Poppins-Black.ttf",
+      "family": "Poppins Black",
+      "version": "4.004",
+      "sha256": "291e4388a436cf0c0d532ce4735a4ca36bd2286912b051ea423d5c383be06cd7",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    },
+    {
+      "file": "font/ProtestStrike.ttf",
+      "family": "Protest Strike",
+      "version": "Version 2.005; ttfautohint (v1.8.4.7-5d5b)",
+      "sha256": "5f5c137f348a7c23a9a2a84245e88acf83c0bb5514d98f8831875b380cbb9764",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright 2020 The Protest Project Authors (https://github.com/octaviopardo/Protest)",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    },
+    {
+      "file": "font/Raleway-Black.ttf",
+      "family": "Raleway Black",
+      "version": "Version 4.026",
+      "sha256": "5c3389bbb707e5c3bbf124d56b0902d171880a9561b0db30f18da39db9be046e",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright 2010 The Raleway Project Authors (impallari@gmail.com), with Reserved Font Name \"Raleway\".",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    },
+    {
+      "file": "font/Rubik-Black.ttf",
+      "family": "Rubik Black",
+      "version": "Version 2.000",
+      "sha256": "e4dacb998cf9fd8953bf45e144bfac8a33707f2bdafe9b506d645696dbf47cc9",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright 2015 The Rubik Project Authors",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    },
+    {
+      "file": "font/Rubik-BlackItalic.ttf",
+      "family": "Rubik Black",
+      "version": "Version 2.300;gftools[0.9.30]",
+      "sha256": "eb096dc71cfb825e67222857b0925223d54dacf9055246739c436a9acb05a995",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    },
+    {
+      "file": "font/Rubik-Bold.ttf",
+      "family": "Rubik",
+      "version": "Version 2.000",
+      "sha256": "6ed15b1bb0bff1c5a2f899b018a1b28c2ba664d1b6541692545ff1b677faf0f0",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright 2015 The Rubik Project Authors",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    },
+    {
+      "file": "font/Rubik-Regular.ttf",
+      "family": "Rubik",
+      "version": "Version 2.000",
+      "sha256": "702154fc326c4de096506a414019176aebd0979f2c907a507fe77ad608956ef3",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright 2015 The Rubik Project Authors",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    },
+    {
+      "file": "font/RussoOne.ttf",
+      "family": "Russo One",
+      "version": "Version 1.001",
+      "sha256": "bc0abcc660bd8b7ad3000ecb2898a27c58a29a50f7ec81652fa12e75148d09df",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright (c) 2011-2012, Jovanny Lemonad (jovanny.ru), with Reserved Font Name \"Russo\"",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    },
+    {
+      "file": "font/SigmarOne.ttf",
+      "family": "Sigmar One",
+      "version": "Version 2.000",
+      "sha256": "f1973c27e2ba9ab90060473b0542e3ded89c631026edf1e50a21b64dc48ceb79",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright 2011 The Sigmar One Project Authors (contact@sansoxygen.com)",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    },
+    {
+      "file": "font/SpaceGrotesk-Bold.ttf",
+      "family": "Space Grotesk",
+      "version": "Version 2.000",
+      "sha256": "a5c1328fd113377968c06cfb81b62327a8a46c45573e54b884d706cea178887a",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    },
+    {
+      "file": "font/TacOne.ttf",
+      "family": "Tac One",
+      "version": "Version 1.003; ttfautohint (v1.8.4.7-5d5b)",
+      "sha256": "a5562e71da14f99d8ec111b232e38f3e05948b3d09c4a8a7255470a8307f08d0",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright 2024 The Tac One Project Authors (https://github.com/Afrotype/tac)",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    },
+    {
+      "file": "font/Urbanist-Black.ttf",
+      "family": "Urbanist Black",
+      "version": "Version 1.303",
+      "sha256": "7175baeb10db3ac18fe52fe4faf647d5f3f199a08fdd83039cf0ed83d0a7fd79",
+      "license": "OFL-1.1",
+      "license_file": "licenses/OFL-1.1.txt",
+      "copyright": "Copyright 2021 The Urbanist Project Authors (https://github.com/coreyhu/Urbanist)",
+      "license_evidence": "Embedded font name-table license notice or license URL."
+    }
+  ],
+  "license_files": {
+    "licenses/OFL-1.1.txt": "66af2141d06900ca041e771d7e4966849e1ed6f59a93de7af6d9dd88feba2aeb",
+    "licenses/Apache-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  }
+}

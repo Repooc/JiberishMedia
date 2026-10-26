@@ -69,7 +69,7 @@ local function checkMedia(env)
             assert(listed, "Dropdown list missing: " .. name)
         end
     end
-    assert(expected >= 28, "Expected at least the repository's 24 fonts and 4 statusbars")
+    assert(expected >= 22, "Expected at least the repository's 18 fonts and 4 statusbars")
     return expected
 end
 

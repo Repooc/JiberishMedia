@@ -1,6 +1,14 @@
 JiberishUI AddOn License
 All Rights Reserved – JiberishUI, LLC
 
+Third-party components
+
+This license applies only to material owned by JiberishUI, LLC. Bundled fonts,
+libraries, and other third-party components remain under their respective
+licenses. The restrictions below do not limit any rights granted under those
+licenses. Font notices and license texts are in JiberishMedia/licenses/;
+library sources and notices are in JiberishMedia/Libs/README.md.
+
 This AddOn, JiberishUI, is the intellectual property of JiberishUI, LLC. It is made available for individual use within the World of Warcraft game for Retail, Classic, and Cataclysm versions (and soon Mists of Pandaria). Users are permitted to download, install, and utilize JiberishUI for personal gameplay purposes only.
 
 You may not:
