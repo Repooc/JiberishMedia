@@ -16,6 +16,26 @@ the media available; it does not change your selected fonts or textures.
 
 Bundled library sources and licenses are listed in `JiberishMedia/Libs/README.md`.
 
+### Spacebar material textures
+
+Five 256×32 statusbar textures are available in LibSharedMedia texture selectors:
+
+- **Spacebar-ClearGlass**: translucent glass with a crisp upper reflection and fine rim lighting.
+- **Spacebar-FrostedGlass**: softly frosted glass with diffuse highlights.
+- **Spacebar-CandyGel**: a rounded glossy surface with soft depth and a lower reflected highlight.
+- **Spacebar-Chrome**: polished metal with contrasting horizontal reflection bands.
+- **Spacebar-Recessed**: an inset channel with upper shadow and a thin illuminated lower lip.
+
+The glass textures include alpha transparency; the other three are opaque.
+These are static material textures, with no live background blur or refraction.
+Restart WoW after adding the files, then select a `Spacebar-` entry in your UI's
+bar texture settings. Their neutral tones work with the UI's chosen bar colors.
+
+![Spacebar materials in neutral, cyan, violet, and green](images/Spacebar-Materials-Preview.png)
+
+Artwork was generated with the built-in image tool and exported as uncompressed
+32-bit TGA files. Generation prompts are recorded in `artwork/statusbar-materials.json`.
+
 Development checks: run `lua5.1 tests/shared_media.lua` from the repository root.
 Branch pushes and pull requests validate and package without uploading. Version
 tags continue to use the release workflow.
