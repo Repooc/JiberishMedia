@@ -10,6 +10,12 @@ import zipfile
 FONT_EXTENSIONS = {'.ttf', '.otf', '.ttc', '.woff', '.woff2'}
 
 
+def text_content(content):
+    # BigWigs packages text with CRLF by default. The wording must still match
+    # the reviewed LF source; font binary checksums remain byte-for-byte exact.
+    return content.decode('utf-8').replace('\r\n', '\n')
+
+
 def check(files, label):
     manifest = json.loads(files['licenses/fonts.json'])
     assert manifest['schema_version'] == 1, 'Unsupported font inventory version'
@@ -20,8 +26,9 @@ def check(files, label):
     assert actual == paths, 'Unreviewed or missing fonts: ' + str(sorted(actual ^ paths))
     license_paths = manifest['license_files']
     for path, expected in license_paths.items():
-        assert hashlib.sha256(files[path]).hexdigest() == expected, 'Changed license text: ' + path
-    notices = files['licenses/FONT-NOTICES.txt'].decode('utf-8')
+        normalized = text_content(files[path]).encode('utf-8')
+        assert hashlib.sha256(normalized).hexdigest() == expected, 'Changed license text: ' + path
+    notices = text_content(files['licenses/FONT-NOTICES.txt'])
     for entry in entries:
         path = entry['file']
         assert hashlib.sha256(files[path]).hexdigest() == entry['sha256'], 'Font needs review: ' + path
