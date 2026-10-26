@@ -5,3 +5,7 @@ manual-changelog:
 move-folders:
     JiberishMedia/JiberishMedia: JiberishMedia
 enable-toc-creation: yes
+enable-nolib-creation: no
+ignore:
+    - .github
+    - tests

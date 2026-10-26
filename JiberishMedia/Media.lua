@@ -1,4 +1,4 @@
-local LSM = _G.LibStub('LibSharedMedia-3.0')
+local LSM = _G.LibStub and _G.LibStub('LibSharedMedia-3.0', true)
 if not LSM then return end
 
 --* Fonts

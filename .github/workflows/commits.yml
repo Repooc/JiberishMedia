@@ -1,27 +1,28 @@
-name: Push Commits
+name: Validate and Package
 on:
   push:
-    tags:
-        - "!**"
-    paths-ignore:
-      - '.github/**'
     branches:
       - "**"
+  pull_request:
+
+permissions:
+  contents: read
+
 jobs:
-  Discord_Notification:
+  validate:
     runs-on: ubuntu-22.04
-    env:
-      CF_API_KEY: ${{ secrets.CF_API_KEY }}
-      WAGO_API_TOKEN: ${{ secrets.WAGO_API_KEY }}
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
-    - name: Workaround checkout issues
-      run: |
-        git fetch --tags --force
-    - name: Package and release
+    - name: Install Lua 5.1
+      run: sudo apt-get update && sudo apt-get install -y lua5.1
+    - name: Check Lua syntax
+      run: find JiberishMedia tests -name '*.lua' -print0 | xargs -0 -n 1 luac5.1 -p
+    - name: Test standalone and shared library loading
+      run: lua5.1 tests/shared_media.lua
+    - name: Package without publishing
       uses: BigWigsMods/packager@master
       with:
-        args: -n "{package-name}-{project-version}"
+        args: -d -n "{package-name}-{project-version}"
