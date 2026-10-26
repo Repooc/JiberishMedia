@@ -9,5 +9,3 @@ enable-nolib-creation: no
 ignore:
     - .github
     - tests
-    - artwork
-    - images

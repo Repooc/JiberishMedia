@@ -32,10 +32,3 @@ LSM:Register("statusbar", "Jiberwatch", [[Interface\Addons\JiberishMedia\statusb
 LSM:Register("statusbar", "JiberwatchFlip", [[Interface\Addons\JiberishMedia\statusbar\JiberwatchFlip.tga]])
 LSM:Register("statusbar", "20Bushido", [[Interface\Addons\JiberishMedia\statusbar\20Bushido.tga]])
 LSM:Register("statusbar", "NewBushidoHealth", [[Interface\Addons\JiberishMedia\statusbar\NewBushidoHealth.tga]])
-
---* Spacebar Materials
-LSM:Register("statusbar", "Spacebar-ClearGlass", [[Interface\Addons\JiberishMedia\statusbar\Spacebar-ClearGlass.tga]])
-LSM:Register("statusbar", "Spacebar-FrostedGlass", [[Interface\Addons\JiberishMedia\statusbar\Spacebar-FrostedGlass.tga]])
-LSM:Register("statusbar", "Spacebar-CandyGel", [[Interface\Addons\JiberishMedia\statusbar\Spacebar-CandyGel.tga]])
-LSM:Register("statusbar", "Spacebar-Chrome", [[Interface\Addons\JiberishMedia\statusbar\Spacebar-Chrome.tga]])
-LSM:Register("statusbar", "Spacebar-Recessed", [[Interface\Addons\JiberishMedia\statusbar\Spacebar-Recessed.tga]])
