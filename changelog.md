@@ -1,3 +1,7 @@
+v1.1.2 10/26/26
+
+• [Compatibility] Update Retail game compatibility to World of Warcraft 12.1.5.
+
 v1.1.1 10/26/26
 
 • [Fix] Include the original Spacebar-Classic, Spacebar-Sharp, and Spacebar-Soft statusbar textures in the published addon so updates retain them.
