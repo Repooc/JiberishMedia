@@ -26,3 +26,6 @@ LSM:Register("statusbar", "Jiberwatch", [[Interface\Addons\JiberishMedia\statusb
 LSM:Register("statusbar", "JiberwatchFlip", [[Interface\Addons\JiberishMedia\statusbar\JiberwatchFlip.tga]])
 LSM:Register("statusbar", "20Bushido", [[Interface\Addons\JiberishMedia\statusbar\20Bushido.tga]])
 LSM:Register("statusbar", "NewBushidoHealth", [[Interface\Addons\JiberishMedia\statusbar\NewBushidoHealth.tga]])
+LSM:Register("statusbar", "Spacebar-Classic", [[Interface\Addons\JiberishMedia\statusbar\Spacebar-Classic.tga]])
+LSM:Register("statusbar", "Spacebar-Sharp", [[Interface\Addons\JiberishMedia\statusbar\Spacebar-Sharp.tga]])
+LSM:Register("statusbar", "Spacebar-Soft", [[Interface\Addons\JiberishMedia\statusbar\Spacebar-Soft.tga]])

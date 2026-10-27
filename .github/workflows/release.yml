@@ -32,3 +32,10 @@ jobs:
           GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Validate packaged font licenses
         run: python3 tests/font_licenses.py --archives .release
+      - name: Test packaged media loading
+        run: |
+          for archive in .release/*.zip; do
+            package_check_dir="$(mktemp -d)"
+            unzip -q "$archive" -d "$package_check_dir"
+            lua5.1 tests/shared_media.lua "$package_check_dir/JiberishMedia"
+          done
