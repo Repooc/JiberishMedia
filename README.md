@@ -17,17 +17,6 @@ the media available; it does not change your selected fonts or textures.
 Font copyrights and complete license texts are in `JiberishMedia/licenses/`.
 Bundled library sources and licenses are listed in `JiberishMedia/Libs/README.md`.
 
-The font license cleanup removes BigNoodleToo, both Gotham files, Gilroy,
-Kabisat Demo, and Lixdu because permission to redistribute these files with the
-addon has not been established. If a UI profile selects one of these fonts,
-choose a retained font in that UI's settings after restarting WoW.
-
-Development checks: run `lua5.1 tests/shared_media.lua` and
-`python3 tests/font_licenses.py` from the repository root.
-Check built packages with `python3 tests/font_licenses.py --archives .release`.
-Branch pushes and pull requests validate and package without uploading. Version
-tags continue to use the release workflow.
-
 ---
 
 Important Notes
@@ -42,7 +31,7 @@ Community & Support
 - Discord: https://discord.gg/jiberish
 - Patreon: https://patreon.com/jiberishui
 - YouTube: https://www.youtube.com/@jiberishui
-- Website: https://jiberishui.com
+- Website: https://jiberish.io
 
 ---
 
