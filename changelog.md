@@ -1,3 +1,8 @@
+v1.1.1 10/26/26
+
+• [Fix] Include the original Spacebar-Classic, Spacebar-Sharp, and Spacebar-Soft statusbar textures in the published addon so updates retain them.
+• [Validation] Check the three Spacebar registrations and load the generated ZIP during packaging checks.
+
 v1.1.0 10/26/26
 
 • [Licensing] Remove BigNoodleToo, GothamNarrowUltra, KMT-GothamXN_Ultra, Gilroy, Kabisat Demo, and Lixdu because addon redistribution permission has not been established.

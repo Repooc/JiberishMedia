@@ -69,7 +69,15 @@ local function checkMedia(env)
             assert(listed, "Dropdown list missing: " .. name)
         end
     end
-    assert(expected >= 22, "Expected at least the repository's 18 fonts and 4 statusbars")
+    -- These original textures must remain in the release, even if another
+    -- media registration is removed or package filters change.
+    for _, style in ipairs({ "Classic", "Sharp", "Soft" }) do
+        local name = "Spacebar-" .. style
+        local path = [[Interface\Addons\JiberishMedia\statusbar\]] .. name .. ".tga"
+        assert(knownFile(path), "Missing Spacebar texture: " .. name)
+        assert(lsm:Fetch("statusbar", name, true) == path, "Missing Spacebar registration: " .. name)
+    end
+    assert(expected >= 25, "Expected at least the repository's 18 fonts and 7 statusbars")
     return expected
 end
 
