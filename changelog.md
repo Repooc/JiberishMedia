@@ -1,3 +1,7 @@
+v1.1.3 11/10/26
+
+• [Compatibility] Add World of Warcraft Forever 1.60.1 (16001) to the TOC; Retail stays on 12.1.5.
+
 v1.1.2 10/26/26
 
 • [Compatibility] Update Retail game compatibility to World of Warcraft 12.1.5.
